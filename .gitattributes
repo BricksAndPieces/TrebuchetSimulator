@@ -1,5 +1,9 @@
 * text=auto
 
+# Repo Language
+* linguist-vendored
+*.cs linguist-vendored=false
+
 # Unity files
 *.meta -text merge=unityyamlmerge diff
 *.unity -text merge=unityyamlmerge diff
